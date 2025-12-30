@@ -1,19 +1,122 @@
-# React + Vite
+# SpendWise — Smart Money Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SpendWise is a modern expense-tracking app designed to help users organize spending, visualize patterns, and manage daily finances more intentionally.
 
-Currently, two official plugins are available:
+This project demonstrates my skills across frontend engineering, authentication, state management, database design, and UI polish.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Live Demo
+https://spend-wise-tawny-sigma.vercel.app/
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 📸 Preview
+<img width="909" height="793" alt="Expense_Tracker" src="https://github.com/user-attachments/assets/e70f2a51-b79d-43b2-b5cb-08ac4ab7e4ca" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Spend_Wise
+---
+
+## ✨ Features
+
+- Add, edit, and delete expenses
+- Category-based tracking
+- Search and sort filters
+- Week / Month views
+- Spending visualization (Chart.js)
+- Secure authentication (Supabase Auth)
+- Per-user data isolation with RLS
+- Dark mode UI
+- Bulk delete (month / all — with confirmations)
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+- Chart.js
+
+**Backend**
+- Supabase (Auth + Database)
+- Row Level Security rules for user-specific data
+
+**Deployment**
+- Vercel
+
+---
+
+## 📂 Project Structure (high-level)
+```
+src/
+├── components/
+│   ├── auth/
+│   ├── expenses/
+│   └── layout/
+├── constants/
+├── lib/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 💡 Key Learning Focus
+
+- Building reusable UI components
+- Implementing secure authentication
+- Managing application-level state
+- Handling protected user data with RLS
+- Creating intuitive financial dashboards
+- UX decisions: confirmations, feedback, error states
+- Deploying and environment setup for production
+
+---
+
+## ▶️ Local Setup
+
+```
+npm install
+npm run dev
+```
+
+Create .env.local:
+
+```
+VITE_SUPABASE_URL=YOUR_URL
+VITE_SUPABASE_ANON_KEY=YOUR_KEY
+```
+
+---
+
+## 📄 License
+
+MIT — free for personal and commercial use.
+
+---
+
+## 🚀 Next Enhancements
+•	Recurring expenses
+•	Monthly budgets + alerts
+•	CSV export
+•	Mobile-first UI refinements
+
+---
+
+## 💬 Suggestions & Feedback
+
+If you have ideas for improvements, feature requests, or notice any issues,
+feel free to open:
+
+- an **Issue** (bugs / suggestions)
+- a **Pull Request** (contributions welcome)
+
+I’m continuously improving SpendWise and would love to hear your thoughts.
+
+---
+
+## 👤 Author
+
+**Jayraj Sawant**
