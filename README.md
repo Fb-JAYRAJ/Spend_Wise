@@ -1,5 +1,9 @@
 # SpendWise — Smart Money Management
 
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-Build-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 SpendWise is a modern expense-tracking app designed to help users organize spending, visualize patterns, and manage daily finances more intentionally.
 
 This project demonstrates my skills across frontend engineering, authentication, state management, database design, and UI polish.
@@ -7,7 +11,9 @@ This project demonstrates my skills across frontend engineering, authentication,
 ---
 
 ## 🌐 Live Demo
-https://spend-wise-tawny-sigma.vercel.app/
+
+👉 Deployed on Vercel:   
+🔗 https://spend-wise-tawny-sigma.vercel.app/
 
 ---
 
